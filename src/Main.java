@@ -18,5 +18,7 @@ public class Main {
         for (int i = 0; i < arrBoolean.length; i++){
             System.out.print(arrBoolean[i] + " ");
         }
+
+        //Задание №2
     }
 }
