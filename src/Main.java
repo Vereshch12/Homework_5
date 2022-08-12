@@ -42,5 +42,29 @@ public class Main {
             else
                 System.out.println();
         }
+
+        //Задание №3
+        System.out.println("\n");
+        for (int i = arrInt.length - 1; i >= 0; i--){
+            System.out.print(arrInt[i]);
+            if (i != 0)
+                System.out.print(", ");
+            else
+                System.out.println();
+        }
+        for (int i = arrInt.length - 1; i >= 0; i--){
+            System.out.print(arrDouble[i]);
+            if (i != 0)
+                System.out.print(", ");
+            else
+                System.out.println();
+        }
+        for (int i = arrInt.length - 1; i >= 0; i--){
+            System.out.print(arrBoolean[i]);
+            if (i != 0)
+                System.out.print(", ");
+            else
+                System.out.println();
+        }
     }
 }
