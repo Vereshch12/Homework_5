@@ -1,6 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-
         //Задание №1
         int[] arrInt = new int [3];
         arrInt[0] = 1;
