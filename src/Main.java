@@ -20,5 +20,27 @@ public class Main {
         }
 
         //Задание №2
+        System.out.println("\n");
+        for (int i = 0; i < arrInt.length; i++){
+            System.out.print(arrInt[i]);
+            if (i != arrInt.length - 1)
+                System.out.print(", ");
+            else
+                System.out.println();
+        }
+        for (int i = 0; i < arrInt.length; i++){
+            System.out.print(arrDouble[i]);
+            if (i != arrInt.length - 1)
+                System.out.print(", ");
+            else
+                System.out.println();
+        }
+        for (int i = 0; i < arrInt.length; i++){
+            System.out.print(arrBoolean[i]);
+            if (i != arrInt.length - 1)
+                System.out.print(", ");
+            else
+                System.out.println();
+        }
     }
 }
