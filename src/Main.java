@@ -66,5 +66,17 @@ public class Main {
             else
                 System.out.println();
         }
+
+        //Задание №4
+        System.out.println("\n");
+        for (int i = 0; i < arrInt.length; i++){
+            if (arrInt[i] % 2 != 0)
+                arrInt[i] += 1;
+            System.out.print(arrInt[i]);
+            if (i != arrInt.length - 1)
+                System.out.print(", ");
+            else
+                System.out.println();
+        }
     }
 }
